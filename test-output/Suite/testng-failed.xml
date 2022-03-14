@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.app.tests.OrderProductTest">
+        <methods>
+          <include name="verifyCountTxtDescription"/>
+        </methods>
+      </class> <!-- com.app.tests.OrderProductTest -->
+      <class name="com.app.tests.HomePageTest">
+        <methods>
+          <include name="verifyMailAddress"/>
+          <include name="verifyTabNavigated"/>
+          <include name="verifyTitles"/>
+        </methods>
+      </class> <!-- com.app.tests.HomePageTest -->
+      <class name="com.app.tests.DressesPageTests">
+        <methods>
+          <include name="verifySizeSTabDisplayed"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifyProductCount"/>
+        </methods>
+      </class> <!-- com.app.tests.DressesPageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
