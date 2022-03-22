@@ -28,7 +28,7 @@ public class BasePage {
 			}
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			driver.get("http://automationpractice.com/index.php");
+			driver.get("https://www.amazon.in/");
 		}
 	}
 

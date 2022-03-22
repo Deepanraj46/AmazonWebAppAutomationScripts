@@ -62,9 +62,10 @@ public class DressesPageObject extends BasePage {
 	public  String getAddToCart(){
 		
 		Mouseover(firstproduct);
+		Mouseover(addToCartButton);
 		addToCartButton.click();
 		Mouseover(closeButton);
-		//closeButton.click();
+		closeButton.click();
 		return noOfSelectedProduct.getText();
 	}
 }
